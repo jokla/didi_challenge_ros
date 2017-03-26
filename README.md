@@ -23,13 +23,13 @@
 
 
 ### Visualize Lidar, camera and Laser using RViz:
-* Launch `display_rosbag_rviz.launch` setting the path to the rosbag file you want to use:   
+Launch `display_rosbag_rviz.launch` setting the path to the rosbag file you want to use:   
  ```
  $ roslaunch didi_challenge_ros display_rosbag_rviz.launch rosbag_file:=CHANGE_WITH_PATH/approach_1.bag
  ```
  
  
-The launch file `display_rosbag_rviz.launch` is:
+The launch file `display_rosbag_rviz.launch` is doing the following:
 * Playing in loop the rosbag file   
 ```
 <arg name="rosbag_file" default="my_file_1" />
