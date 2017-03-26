@@ -2,6 +2,9 @@
 
 [Here](https://www.udacity.com/didi-challenge) you can find more info about the challenge.
 
+
+![https://www.youtube.com/watch?v=8ajTBb6EDWE](./visualization.gif) 
+
 ## Instructions:
 
 ### Download dataset:
@@ -26,6 +29,8 @@
  $ roslaunch didi_challenge_ros display_rosbag_rviz.launch rosbag_file:=CHANGE_WITH_PATH/approach_1.bag
  ```
  
+
+ 
 The launch file `display_rosbag_rviz.launch` is:
 * Playing in loop the rosbag file   
 ```
@@ -36,4 +41,6 @@ The launch file `display_rosbag_rviz.launch` is:
 `<node pkg="tf2_ros" type="static_transform_publisher" name="link1_broadcaster" args="0 0 1.6 0 0 0 1 base_link velodyne" />`  
  Please note that I invented the transformation matrix, since it seems that this information is missing. I have to check how to get the real value.  
  * Opening RViz with the setting file 'display.rviz'   
-`<node name="rviz" pkg="rviz" type="rviz" args="-d $(find didi_challenge_ros)/launch/display.rviz" />``
+```
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find didi_challenge_ros)/launch/display.rviz" />
+```
