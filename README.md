@@ -38,7 +38,9 @@ The launch file `display_rosbag_rviz.launch` is:
 <node pkg="rosbag" type="play" name="player" output="screen" args="-l $(arg rosbag_file) "/>
 ```
 * Publishing the transformation between the link 'base_link' and 'velodyne'    
-`<node pkg="tf2_ros" type="static_transform_publisher" name="link1_broadcaster" args="0 0 1.6 0 0 0 1 base_link velodyne" />`  
+```
+<node pkg="tf2_ros" type="static_transform_publisher" name="link1_broadcaster" args="0 0 1.6 0 0 0 1 base_link velodyne" />
+```
  Please note that I invented the transformation matrix, since it seems that this information is missing. I have to check how to get the real value.  
  * Opening RViz with the setting file 'display.rviz'   
 ```
