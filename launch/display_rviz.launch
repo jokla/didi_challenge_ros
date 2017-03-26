@@ -1,0 +1,7 @@
+<launch>
+
+<node pkg="tf2_ros" type="static_transform_publisher" name="link1_broadcaster" args="0 0 1.6 0 0 0 1 base_link velodyne" />
+
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find didi_challenge_ros)/launch/display.rviz" />
+
+</launch>

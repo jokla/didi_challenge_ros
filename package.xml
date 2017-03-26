@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package>
+  <name>didi_challenge_ros</name>
+  <version>1.0.0</version>
+  <description>Contains launch files for the DiDi Challenge</description>
+  <author email="Giovanni.Claudio@inria.fr">Giovanni Claudio</author>
+  <maintainer email="Giovanni.Claudio@inria.fr">Giovanni Claudio</maintainer>
+  <license>BSD</license>
+  <url type="repository">git://github.com/jokla/didi-challenge.git</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
