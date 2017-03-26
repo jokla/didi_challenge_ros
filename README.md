@@ -1,8 +1,8 @@
 #  DiDi Challenge 
 
-[Here](https://www.udacity.com/didi-challenge) you can find more info about the challenge.
+[Here](https://www.udacity.com/didi-challenge) you can find more info about the challenge. In this repository you will find a simple launch file to play a rosbag file and visualize the result in RViz.
 
-[![IMAGE ALT TEXT HERE](./visualization.gif)](https://www.youtube.com/watch?v=8ajTBb6EDWE)
+[![GIF](./visualization.gif)](https://www.youtube.com/watch?v=8ajTBb6EDWE)
 
 ## Instructions:
 
