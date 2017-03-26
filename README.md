@@ -2,8 +2,7 @@
 
 [Here](https://www.udacity.com/didi-challenge) you can find more info about the challenge.
 
-
-![https://www.youtube.com/watch?v=8ajTBb6EDWE](./visualization.gif) 
+[![IMAGE ALT TEXT HERE](./visualization.gif)](https://www.youtube.com/watch?v=8ajTBb6EDWE)
 
 ## Instructions:
 
