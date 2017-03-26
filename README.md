@@ -28,7 +28,7 @@ Launch `display_rosbag_rviz.launch` setting the path to the rosbag file you want
  $ roslaunch didi_challenge_ros display_rosbag_rviz.launch rosbag_file:=CHANGE_WITH_PATH/approach_1.bag
  ```
  
- 
+#### d
 The launch file `display_rosbag_rviz.launch` is doing the following:
 * Playing in loop the rosbag file   
 ```
