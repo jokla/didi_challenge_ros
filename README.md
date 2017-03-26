@@ -39,7 +39,7 @@ The launch file `display_rosbag_rviz.launch` is doing the following:
 ```
 <node pkg="tf2_ros" type="static_transform_publisher" name="link1_broadcaster" args="0 0 1.6 0 0 0 1 base_link velodyne" />
 ```
- Please note that I invented the transformation matrix, since it seems that this information is missing. I have to check how to get the real value.  
+ Please note that I invented the transformation matrix since it seems that this information is missing. I have to check how to get the real value.  
  * Opening RViz with the setting file 'display.rviz'   
 ```
 <node name="rviz" pkg="rviz" type="rviz" args="-d $(find didi_challenge_ros)/launch/display.rviz" />
