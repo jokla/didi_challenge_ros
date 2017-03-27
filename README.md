@@ -6,6 +6,35 @@
 
 ## Instructions:
 
+### Install ROS:
+
+Follow instructions you find in this <a href="http://wiki.ros.org/hydro/Installation/Ubuntu" target="_parent">page</a>.
+
+* Point 1.2 : choose instructions for your version of Ubuntu.
+
+* Point 1.4 : Desktop-Full Install: (Recommended).
+
+* When you configure the ROS Environment, choose catkin.
+
+* Complete the tutorial <a href="http://wiki.ros.org/ROS/Tutorials" target="_parent">page</a>. It is mandatory to follow the tutorial number 1 "Installing and Configuring Your ROS Environment".
+
+Now we have installed ROS and we have created our workspace.
+
+* Open the file bashrc:
+	` gedit ~/.bashrc`
+if you want to avoid to type the following command every time, add in the end of the file :	
+	
+  ``` 
+  export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/path_to_catkin_ws/catkin_ws/src
+  source /opt/ros/indigo/setup.bash
+  source /path_to_catkin_ws/catkin_ws/devel/setup.bash
+  ```
+Remember to change `/path_to_catkin_ws` with your path and change `indigo` if you are using another version of ROS.
+
+Close the terminal an open a new one.
+
+I used Ubuntu 14.04 and ROS Indigo.
+
 ### Download dataset:
 * Download the 32GB dataset from [here](http://academictorrents.com/details/76352487923a31d47a6029ddebf40d9265e770b5).
 
