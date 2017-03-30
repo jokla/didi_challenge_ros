@@ -8,7 +8,7 @@
 
 ### Install ROS:
 
-Follow instructions you find in this <a href="http://wiki.ros.org/hydro/Installation/Ubuntu" target="_parent">page</a>.
+Follow instructions you find in this <a href="http://wiki.ros.org/ROS/Installation" target="_parent">page</a>.
 
 * Point 1.2 : choose instructions for your version of Ubuntu.
 
